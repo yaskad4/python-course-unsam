@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# Las columnas en camion.csv corresponden a un nombre de fruta, una cantidad de cajones cargados en el camión, y un precio de compra por cada cajón de ese grupo. Escribí un programa llamado costo_camion.py que abra el archivo, lea las líneas, y calcule el precio pagado por los cajones cargados en el camión.
+
 import csv
 
 def costo_camion(nombre_archivo):
@@ -12,3 +15,4 @@ def costo_camion(nombre_archivo):
     return costo_total
 
 print(f"El total del costo del camion es {costo_camion('data/camion.csv')} pesos")
+

@@ -1,6 +1,11 @@
-# Copiá el contenido de costo_camion.py a un nuevo archivo llamado camion_commandline.py que incorpore la lectura de parámetros por línea de comando
-
 # -*- coding: utf-8 -*-
+
+# Copiá el contenido de costo_camion.py a un nuevo archivo llamado camion_commandline.py que 
+# incorpore la lectura de parámetros por línea de comando
+# para que funcione lo llamo asi:
+# python camion_commandline.py data/camion.csv
+
+
 import csv
 import sys
 
