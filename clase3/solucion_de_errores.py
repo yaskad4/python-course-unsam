@@ -97,5 +97,5 @@ def leer_camion(nombre_archivo):
             camion.append(registro)
     return camion
 
-camion = leer_camion('../Data/camion.csv')
+camion = leer_camion('data/camion.csv')
 pprint(camion)
